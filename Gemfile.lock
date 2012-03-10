@@ -7,32 +7,7 @@ GIT
       thor (~> 0.14)
 
 GIT
-  remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: d5208e3801bd724ec797b41fad6bb4baa8432e57
-  branch: paper
-  specs:
-    fat_free_crm (0.11.0)
-      acts-as-taggable-on (~> 2.2.1)
-      acts_as_commentable (~> 3.0.1)
-      acts_as_list (~> 0.1.4)
-      ajax-chosen-rails (>= 0.1.5)
-      authlogic (~> 3.1.0)
-      chosen-rails
-      ffaker (>= 1.12.0)
-      haml (~> 3.1.3)
-      jquery-rails
-      paper_trail
-      paperclip (~> 2.5.2)
-      prototype-rails
-      rails (~> 3.2.2)
-      ransack
-      sass (~> 3.1.15)
-      simple_form (~> 1.5.2)
-      uglifier
-      will_paginate (~> 3.0.2)
-
-GIT
-  remote: git://github.com/ndbroadbent/ransack.git
+  remote: git://github.com/fatfreecrm/ransack.git
   revision: 92f5812d4320e5f1959f844d19d0386bb5654a08
   specs:
     ransack (0.6.0)
@@ -98,6 +73,25 @@ GEM
     erubis (2.7.0)
     execjs (1.3.0)
       multi_json (~> 1.0)
+    fat_free_crm (0.11.0)
+      acts-as-taggable-on (~> 2.2.1)
+      acts_as_commentable (~> 3.0.1)
+      acts_as_list (~> 0.1.4)
+      ajax-chosen-rails (>= 0.1.5)
+      authlogic (~> 3.1.0)
+      chosen-rails
+      ffaker (>= 1.12.0)
+      haml (~> 3.1.3)
+      jquery-rails
+      paper_trail
+      paperclip (~> 2.5.2)
+      prototype-rails
+      rails (~> 3.2.2)
+      ransack
+      sass (~> 3.1.15)
+      simple_form (~> 1.5.2)
+      uglifier
+      will_paginate (~> 3.0.2)
     ffaker (1.13.0)
     haml (3.1.4)
     hike (1.2.1)
@@ -209,7 +203,7 @@ PLATFORMS
 DEPENDENCIES
   chosen-rails!
   coffee-rails (~> 3.2.1)
-  fat_free_crm!
+  fat_free_crm
   pg (~> 0.12.2)
   ransack!
   ruby-debug

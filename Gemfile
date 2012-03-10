@@ -3,10 +3,11 @@ source 'https://rubygems.org'
 require File.expand_path('../lib/bundler/gem_development', __FILE__)
 Bundler.development_gems = ['fat_free_crm', /^ffcrm_/]
 
-gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git', :branch => 'paper'
+gem 'fat_free_crm'
 
+gem 'ransack',      :git => "git://github.com/fatfreecrm/ransack.git"
 gem 'chosen-rails', :git => "git://github.com/fatfreecrm/chosen-rails.git"
-gem 'ransack',      :git => "git://github.com/ndbroadbent/ransack.git"
+
 
 # Uncomment the database that you have configured in config/database.yml
 # ----------------------------------------------------------------------
