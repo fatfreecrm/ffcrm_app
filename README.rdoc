@@ -1,0 +1,43 @@
+== Welcome to Fat Free CRM
+
+This is an example app using the Fat Free CRM engine
+
+=== Simple installation
+
+1. Clone this repo:
+       git clone git://github.com/fatfreecrm/ffcrm_app.git
+
+2. Change directory to <tt>ffcrm_app</tt>:
+       cd ffcrm_app
+
+3. Set up database config: (Replace {database} with one of: postgres, mysql, mysql.mac, sqlite)
+       cp config/database.{database}.yml config/database.yml
+       git add config/database.yml
+       git commit -m "Configured database"
+
+=== Install into a new Rails application
+
+1. At the command prompt, create a new Rails application:
+       rails new my_crm  # (where my_crm is the application name)
+
+2. Change directory to <tt>my_crm</tt>:
+       cd my_crm
+
+3. Remove a few files that <tt>fat_free_crm</tt> already provides:
+       (cd app && rm -f controllers/application_controller.rb views/layouts/application.html.erb helpers/application_helper.rb assets/javascripts/application.js assets/stylesheets/application.css)
+
+4. Add <tt>fat_free_crm</tt> to your <tt>Gemfile</tt>, with the following line:
+       gem 'fat_free_crm', :git => 'git://github.com/fatfreecrm/fat_free_crm.git'
+
+5. Install gems:
+       bundle install
+
+6. Create database, run migrations, setup admin user, etc.:
+       rake ffcrm:setup
+
+=== Fire it up
+
+1. Start the web server:
+       rails server
+
+2. Go to http://localhost:3000 and you'll see your new site.

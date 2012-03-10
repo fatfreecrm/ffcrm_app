@@ -1,0 +1,16 @@
+#!/bin/bash -l
+# Install with:
+# bash < <(curl -L https://raw.github.com/gist/1333785)
+#
+# Reference: http://blog.wyeworks.com/2011/11/1/ruby-1-9-3-and-ruby-debug
+echo "Installing ruby-debug and linecache for $(rvm tools strings)..."
+
+cd /tmp
+curl -OL http://rubyforge.org/frs/download.php/75414/linecache19-0.5.13.gem
+curl -OL http://rubyforge.org/frs/download.php/75415/ruby-debug-base19-0.11.26.gem
+
+gem install linecache19-0.5.13.gem ruby-debug-base19-0.11.26.gem -- --with-ruby-include="$rvm_path/src/$(rvm tools strings)/"
+
+rm *.gem
+
+echo "Done."
