@@ -9,7 +9,9 @@ cd /tmp
 curl -OL http://rubyforge.org/frs/download.php/75414/linecache19-0.5.13.gem
 curl -OL http://rubyforge.org/frs/download.php/75415/ruby-debug-base19-0.11.26.gem
 
-gem install linecache19-0.5.13.gem ruby-debug-base19-0.11.26.gem -- --with-ruby-include="$rvm_path/src/$(rvm tools strings)/"
+for gem_file in linecache19-0.5.13.gem ruby-debug-base19-0.11.26.gem; do
+  gem install $gem_file -- --with-ruby-include="$rvm_path/src/$(rvm tools strings)/"
+done
 
 rm *.gem
 
