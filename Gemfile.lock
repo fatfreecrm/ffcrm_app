@@ -16,6 +16,12 @@ GIT
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
 
+GIT
+  remote: https://github.com/LessonPlanet/responds_to_parent.git
+  revision: 1f0c6d82eda5e7f331a30fc029e7ead2a7dbdebf
+  specs:
+    responds_to_parent (1.0.20091013)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -206,6 +212,7 @@ DEPENDENCIES
   fat_free_crm
   pg (~> 0.12.2)
   ransack!
+  responds_to_parent!
   ruby-debug
   ruby-debug19
   sass-rails (~> 3.2.3)
