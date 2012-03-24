@@ -66,6 +66,8 @@ GEM
       activerecord (>= 3.0.7)
       activerecord (>= 3.0.7)
     builder (3.0.0)
+    bundler_local_development (0.1.0)
+      bundler
     chronic (0.6.7)
     cocaine (0.2.1)
     coffee-rails (3.2.2)
@@ -113,13 +115,13 @@ GEM
       rbx-require-relative (> 0.0.4)
     linecache19 (0.5.13)
       ruby_core_source (>= 0.1.4)
-    mail (2.4.3)
+    mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.17.2)
+    mime-types (1.18)
     multi_json (1.1.0)
-    paper_trail (2.6.0)
+    paper_trail (2.6.2)
       rails (~> 3)
     paperclip (2.5.2)
       activerecord (>= 2.3.0)
@@ -207,6 +209,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler_local_development
   chosen-rails!
   coffee-rails (~> 3.2.1)
   fat_free_crm

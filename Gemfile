@@ -1,7 +1,11 @@
 source 'https://rubygems.org'
 
-require File.expand_path('../lib/bundler/gem_development', __FILE__)
-Bundler.development_gems = ['fat_free_crm', /^ffcrm_/]
+gem 'bundler_local_development', :group => :development, :require => false
+begin
+  require 'bundler_local_development'
+  Bundler.development_gems = ['fat_free_crm', /^ffcrm_/]
+rescue LoadError
+end
 
 gem 'fat_free_crm'
 
