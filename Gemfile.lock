@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/fatfreecrm/fat_free_crm.git
-  revision: dff4c813f1241c99258d8a97a518c76580e3aa28
+  revision: 899ebc01f0c671bd28608d7a28e2d0adbc6ee55d
   specs:
     fat_free_crm (0.11.3)
       acts-as-taggable-on (~> 2.3.3)
@@ -177,7 +177,7 @@ GEM
       activerecord (~> 3.0)
       chronic (~> 0.6.7)
       polyamorous (~> 0.5.0)
-    ransack_ui (0.1.5)
+    ransack_ui (0.1.6)
       ransack_chronic
     rbx-require-relative (0.0.9)
     rdoc (3.12)
