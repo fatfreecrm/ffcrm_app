@@ -40,5 +40,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'fat_free_crm', '~> 0.16.0'
+gem 'fat_free_crm', '>= 0.15.0'
 gem 'sprockets-rails'
