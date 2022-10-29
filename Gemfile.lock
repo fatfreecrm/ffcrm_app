@@ -76,7 +76,7 @@ GEM
     dynamic_form (1.1.4)
     email_reply_parser_ffcrm (0.5.0)
     erubis (2.7.0)
-    execjs (2.6.0)
+    execjs (2.8.1)
     fat_free_crm (0.15.2)
       acts-as-taggable-on (>= 3.4.3)
       acts_as_commentable
@@ -272,7 +272,7 @@ GEM
       coffee-rails
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
-    uglifier (3.0.0)
+    uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unaccent (0.4.0)
     websocket-driver (0.6.5)
