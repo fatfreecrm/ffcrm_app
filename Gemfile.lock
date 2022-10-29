@@ -64,7 +64,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
+    coffee-script-source (1.12.2)
     concurrent-ruby (1.1.10)
     countries (5.2.0)
       unaccent (~> 0.3)
@@ -76,7 +76,7 @@ GEM
     dynamic_form (1.1.4)
     email_reply_parser_ffcrm (0.5.0)
     erubis (2.7.0)
-    execjs (2.6.0)
+    execjs (2.8.1)
     fat_free_crm (0.15.2)
       acts-as-taggable-on (>= 3.4.3)
       acts_as_commentable
@@ -268,8 +268,9 @@ GEM
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.0.11)
-    turbolinks (2.5.3)
-      coffee-rails
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (3.0.0)
