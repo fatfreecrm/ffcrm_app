@@ -43,5 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'fat_free_crm', github: 'fatfreecrm/fat_free_crm', branch: 'master'
-gem 'sprockets-rails', '2.2.2'
+gem 'fat_free_crm'
+gem 'sprockets-rails'
