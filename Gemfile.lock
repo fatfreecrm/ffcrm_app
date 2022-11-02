@@ -52,7 +52,6 @@ GEM
       request_store (~> 1.0)
       scrypt (>= 1.2, < 4.0)
     builder (3.2.4)
-    byebug (8.2.2)
     cancancan (3.4.0)
     chronic (0.10.2)
     climate_control (0.2.0)
@@ -128,9 +127,9 @@ GEM
     htmlentities (4.3.4)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.4.1)
-      activesupport (>= 3.0.0, < 5.1)
-      multi_json (~> 1.2)
+    jbuilder (2.11.5)
+      actionview (>= 5.0.0)
+      activesupport (>= 5.0.0)
     jquery-migrate-rails (1.2.1)
     jquery-rails (4.5.0)
       rails-dom-testing (>= 1, < 3)
@@ -154,7 +153,6 @@ GEM
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
     minitest (5.16.3)
-    multi_json (1.11.2)
     nio4r (2.5.8)
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
@@ -285,15 +283,14 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug
-  coffee-rails (~> 4.1.0)
-  fat_free_crm (~> 0.15.0)
-  jbuilder (~> 2.0)
+  coffee-rails
+  fat_free_crm (>= 0.15.0)
+  jbuilder (~> 2.11)
   jquery-rails
   pg
-  rails (~> 5.0)
-  sass-rails (~> 6.0)
-  sdoc (~> 0.4.0)
+  rails (>= 5.0.0)
+  sass-rails
+  sdoc
   spring
   sprockets-rails
   turbolinks
