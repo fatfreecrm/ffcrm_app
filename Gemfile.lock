@@ -127,9 +127,8 @@ GEM
       railties (>= 3.2, < 8.0)
     globalid (1.0.0)
       activesupport (>= 5.0)
-    haml (6.0.12)
-      temple (>= 0.8.2)
-      thor
+    haml (5.0.4)
+      temple (>= 0.8.0)
       tilt
     htmlentities (4.3.4)
     i18n (1.12.0)
@@ -280,6 +279,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    sqlite3 (1.4.4)
     temple (0.9.1)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
@@ -306,6 +306,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails
   fat_free_crm (>= 0.15.0)
+  haml (~> 5.0.0)
   jbuilder (~> 2.11)
   jquery-rails
   pg
@@ -314,6 +315,7 @@ DEPENDENCIES
   sdoc
   spring
   sprockets-rails
+  sqlite3
   turbolinks
   uglifier (>= 1.3.0)
 

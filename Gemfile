@@ -31,6 +31,7 @@ gem 'sdoc', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'sqlite3'
 
 group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
@@ -38,4 +39,5 @@ group :development, :test do
 end
 
 gem 'fat_free_crm', '>= 0.15.0'
+gem 'haml', '~> 5.0.0'
 gem 'sprockets-rails'
