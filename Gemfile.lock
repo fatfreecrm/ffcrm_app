@@ -160,6 +160,7 @@ GEM
       nokogiri (~> 1)
       rake
     mini_mime (1.1.2)
+    mini_portile2 (2.8.0)
     minitest (5.16.3)
     net-imap (0.3.2)
       date
@@ -279,7 +280,8 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.4)
+    sqlite3 (1.5.4)
+      mini_portile2 (~> 2.8.0)
     temple (0.9.1)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
