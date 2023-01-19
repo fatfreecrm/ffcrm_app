@@ -37,5 +37,5 @@ group :development, :test do
 end
 
 gem 'fat_free_crm', '>= 0.15.0'
-gem 'haml', '~> 5.0.0'
+gem 'haml', '~> 6.1.1'
 gem 'sprockets-rails'
