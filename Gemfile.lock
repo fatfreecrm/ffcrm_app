@@ -271,7 +271,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.1)
+    sqlite3 (1.6.2)
       mini_portile2 (~> 2.8.0)
     temple (0.9.1)
     terrapin (0.6.0)
