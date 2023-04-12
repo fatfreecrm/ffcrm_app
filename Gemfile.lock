@@ -173,7 +173,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.13.10)
+    nokogiri (1.14.3)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     orm_adapter (0.5.0)
@@ -192,7 +192,7 @@ GEM
       css_parser (>= 1.12.0)
       htmlentities (>= 4.0.0)
     public_suffix (5.0.1)
-    racc (1.6.1)
+    racc (1.6.2)
     rack (2.2.6.4)
     rack-test (2.0.2)
       rack (>= 1.3)
