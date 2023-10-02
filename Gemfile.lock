@@ -128,8 +128,9 @@ GEM
       railties (>= 3.2, < 8.0)
     globalid (1.0.1)
       activesupport (>= 5.0)
-    haml (5.0.4)
-      temple (>= 0.8.0)
+    haml (6.2.0)
+      temple (>= 0.8.2)
+      thor
       tilt
     htmlentities (4.3.4)
     i18n (1.12.0)
@@ -273,12 +274,12 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (1.6.6)
       mini_portile2 (~> 2.8.0)
-    temple (0.9.1)
+    temple (0.10.2)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
     thor (1.2.1)
     thread_safe (0.3.6)
-    tilt (2.0.11)
+    tilt (2.3.0)
     timeout (0.3.1)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
@@ -301,7 +302,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails
   fat_free_crm (>= 0.15.0)
-  haml (~> 5.0.0)
+  haml (~> 6.2.0)
   jbuilder (~> 2.11)
   jquery-rails
   pg
