@@ -36,11 +36,15 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'fat_free_crm', '~> 0.24.0'
-gem 'acts_as_commentable', git: 'https://github.com/fatfreecrm/acts_as_commentable.git', tag: '7.1.0' # Our fork
-gem 'bootstrap', '~>5.0.0'
-
 gem 'haml'
 gem 'sprockets-rails'
 gem 'csv'
 gem 'puma'
+
+# Installing Fat Free CRM
+gem 'fat_free_crm', '~> 0.24.0'
+gem 'acts_as_commentable', git: 'https://github.com/fatfreecrm/acts_as_commentable.git', tag: '7.1.0' # Our fork
+gem 'bootstrap', '~>5.0.0'
+
+# Add useful plugins
+# gem 'ffcrm_endpoint'
