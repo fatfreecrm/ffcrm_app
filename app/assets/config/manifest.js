@@ -1,1 +1,4 @@
-//= link fat_free_crm/manifest.js
+//= link application.css
+//= link application.js
+//= link loading.gif
+//= link info_tiny.png
