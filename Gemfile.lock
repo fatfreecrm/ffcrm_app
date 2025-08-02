@@ -121,6 +121,7 @@ GEM
     crass (1.0.6)
     css_parser (1.21.1)
       addressable
+    csv (3.3.5)
     date (3.4.1)
     devise (4.9.4)
       bcrypt (~> 3.0)
@@ -375,6 +376,7 @@ PLATFORMS
 DEPENDENCIES
   acts_as_commentable!
   coffee-rails
+  csv
   fat_free_crm (~> 0.24.0)
   haml
   jbuilder (~> 2.13)
