@@ -41,3 +41,4 @@ gem 'acts_as_commentable', git: 'https://github.com/fatfreecrm/acts_as_commentab
 gem 'haml'
 gem 'sprockets-rails'
 gem 'csv'
+gem 'puma'
