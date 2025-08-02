@@ -98,10 +98,16 @@ GEM
       activesupport (>= 6.1)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
+    autoprefixer-rails (10.4.21.0)
+      execjs (~> 2)
     base64 (0.3.0)
     bcrypt (3.1.20)
     benchmark (0.4.1)
     bigdecimal (3.2.2)
+    bootstrap (5.0.2)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 2.9.2, < 3)
+      sassc-rails (>= 2.0.0)
     builder (3.3.0)
     cancancan (3.6.1)
     chronic (0.10.2)
@@ -233,6 +239,7 @@ GEM
       activerecord (>= 6.1)
       request_store (~> 1.4)
     pg (1.6.0)
+    popper_js (2.11.8)
     pp (0.6.2)
       prettyprint
     premailer (1.27.0)
@@ -377,8 +384,10 @@ PLATFORMS
 
 DEPENDENCIES
   acts_as_commentable!
+  bootstrap (~> 5.0.0)
   coffee-rails
   csv
+  execjs
   fat_free_crm (~> 0.24.0)
   haml
   jbuilder (~> 2.13)
