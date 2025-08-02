@@ -2,7 +2,7 @@
 
 sudo add-apt-repository -y ppa:mozillateam/ppa
 
-echo -e "Package: firefox*\nPin: release o=LP-PPA-mozillateam-ppa\nPin-Priority: 550\n\nPackage: firefox*\nPin: release o=Ubuntu\nPin-Priority: -1" | sudo tee /etc/apt/preferences.d/99-mozillateamppa
+echo "Package: firefox*\nPin: release o=LP-PPA-mozillateam-ppa\nPin-Priority: 550\n\nPackage: firefox*\nPin: release o=Ubuntu\nPin-Priority: -1" | sudo tee /etc/apt/preferences.d/99-mozillateamppa
 
 cp script/sample_hooks/pre-commit/ .git/hooks/
 
