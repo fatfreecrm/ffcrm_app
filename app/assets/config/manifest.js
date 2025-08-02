@@ -1,2 +1,1 @@
-//= link application.css
-//= link application.js
+//= link fat_free_crm/manifest.js
