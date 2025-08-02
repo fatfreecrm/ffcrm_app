@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 7.1.0'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -36,6 +36,7 @@ group :development, :test do
   gem 'spring'
 end
 
-gem 'fat_free_crm', '>= 0.15.0'
-gem 'haml', '~> 5.0.0'
+gem 'fat_free_crm', '~> 0.24.0'
+gem 'acts_as_commentable', git: 'https://github.com/fatfreecrm/acts_as_commentable.git', tag: '7.1.0' # Our fork
+gem 'haml'
 gem 'sprockets-rails'
