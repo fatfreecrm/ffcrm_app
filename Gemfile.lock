@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/fatfreecrm/acts_as_commentable.git
-  revision: b7397307b14f930bcfe6611d7e7c8ef4dec152c9
-  tag: 7.1.0
-  specs:
-    acts_as_commentable (7.1.0)
-      activerecord (~> 7.1.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -93,6 +85,8 @@ GEM
     acts-as-taggable-on (12.0.0)
       activerecord (>= 7.1, < 8.1)
       zeitwerk (>= 2.4, < 3.0)
+    acts_as_commentable2 (7.1.0.1)
+      activerecord (~> 7.1.0)
     acts_as_list (1.2.4)
       activerecord (>= 6.1)
       activesupport (>= 6.1)
@@ -143,10 +137,10 @@ GEM
     erb (5.0.2)
     erubi (1.13.1)
     execjs (2.10.0)
-    fat_free_crm (0.24.1)
+    fat_free_crm (0.24.2)
       activemodel-serializers-xml
       acts-as-taggable-on (>= 3.4.3)
-      acts_as_commentable (>= 6.1)
+      acts_as_commentable2 (~> 7.1.0)
       acts_as_list
       cancancan (>= 3.3.0)
       coffee-script-source (~> 1.8, >= 1.8.0)
@@ -172,7 +166,7 @@ GEM
       ransack (< 4)
       ransack_ui
       responders (~> 3.0)
-      responds_to_parent
+      responds_to_parent2
       sass
       select2-rails
       simple_form
@@ -325,7 +319,8 @@ GEM
     responders (3.1.1)
       actionpack (>= 5.2)
       railties (>= 5.2)
-    responds_to_parent (1.1.0)
+    responds_to_parent2 (2.1.0)
+      actionpack (>= 3.2.22, < 8.0)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
     sass-listen (4.0.0)
@@ -383,11 +378,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  acts_as_commentable!
   bootstrap (~> 5.0.0)
   coffee-rails
   csv
-  execjs
   fat_free_crm (~> 0.24.0)
   haml
   jbuilder (~> 2.13)
