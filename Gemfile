@@ -42,7 +42,7 @@ gem 'csv'
 gem 'puma'
 
 # Installing Fat Free CRM
-gem 'fat_free_crm', '~> 0.24.0'
+gem 'fat_free_crm', '~> 0.24.3'
 gem 'bootstrap', '~>5.0.0'
 
 # Add useful plugins

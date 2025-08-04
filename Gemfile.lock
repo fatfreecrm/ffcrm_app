@@ -137,7 +137,7 @@ GEM
     erb (5.0.2)
     erubi (1.13.1)
     execjs (2.10.0)
-    fat_free_crm (0.24.2)
+    fat_free_crm (0.24.3)
       activemodel-serializers-xml
       acts-as-taggable-on (>= 3.4.3)
       acts_as_commentable2 (~> 7.1.0)
@@ -381,7 +381,7 @@ DEPENDENCIES
   bootstrap (~> 5.0.0)
   coffee-rails
   csv
-  fat_free_crm (~> 0.24.0)
+  fat_free_crm (~> 0.24.3)
   haml
   jbuilder (~> 2.13)
   jquery-rails
