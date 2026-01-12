@@ -98,7 +98,7 @@ GEM
     bcrypt (3.1.20)
     benchmark (0.5.0)
     bigdecimal (3.3.1)
-    bootstrap (5.3.5)
+    bootstrap (5.3.8)
       popper_js (>= 2.11.8, < 3)
     builder (3.3.0)
     cancancan (3.6.1)
@@ -382,7 +382,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 5.3.5)
+  bootstrap (~> 5.3.8)
   coffee-rails
   csv
   fat_free_crm (~> 0.24.3)

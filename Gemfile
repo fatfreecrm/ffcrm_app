@@ -43,7 +43,7 @@ gem 'puma'
 
 # Installing Fat Free CRM
 gem 'fat_free_crm', '~> 0.24.3'
-gem 'bootstrap', '~>5.3.5'
+gem 'bootstrap', '~>5.3.8'
 
 # Add useful plugins
 # gem 'ffcrm_endpoint'
