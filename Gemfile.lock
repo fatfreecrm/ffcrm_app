@@ -118,8 +118,9 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.7)
-    css_parser (1.22.0)
+    css_parser (3.0.0)
       addressable
+      ssrf_filter (~> 1.5)
     csv (3.3.5)
     date (3.5.1)
     devise (4.9.4)
@@ -358,6 +359,7 @@ GEM
       sprockets (>= 3.0.0)
     sqlite3 (2.9.5)
       mini_portile2 (~> 2.8.0)
+    ssrf_filter (1.5.0)
     stringio (3.1.7)
     temple (0.10.4)
     thor (1.5.0)
